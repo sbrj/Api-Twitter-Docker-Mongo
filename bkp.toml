@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "protejo_carrefour"
+version = "1.0.0"
+description = "ImplementaÃ§Ã£o API twitter"
+authors = ["sbrj <mauriciomartino@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tweepy = "^3.10.0"
+pymongo = "^3.12.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
