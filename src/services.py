@@ -13,7 +13,7 @@ def get_trends(woe_id: int) -> List[dict[str: Any]]:
 
 
     Returns:
-        [type]: [description]
+        Trends: List[Dict[str]]
     """
 
     auth = tweepy.OAuthHandler(consumer_key=apikey, consumer_secret=apisecret)
